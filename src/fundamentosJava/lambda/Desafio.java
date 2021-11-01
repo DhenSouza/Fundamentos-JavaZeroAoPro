@@ -17,7 +17,7 @@ public class Desafio {
 
 
 		Function<Produto2, Double> precoComDesconto = prod -> 
-		(prod.getPreco() * (1 - prod.getDesconto()));;
+		(prod.getPreco() * (1 - prod.getDesconto()));
 		
 		
 		UnaryOperator<Double> impostoMunicipal = prod -> prod >= 2500 ? prod * 1.085 : prod;
