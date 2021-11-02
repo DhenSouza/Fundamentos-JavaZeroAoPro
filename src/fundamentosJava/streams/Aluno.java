@@ -4,12 +4,16 @@ public class Aluno {
 
 	private final String nome;
 	private final Double nota;
-
+	private final Boolean bomComportamento;
 
 	public Aluno(String nome, Double nota) {
-		super();
+		this(nome, nota, true);
+	}
+
+	public Aluno(String nome, Double nota, Boolean bomComportamento) {
 		this.nome = nome;
 		this.nota = nota;
+		this.bomComportamento = bomComportamento;
 	}
 
 	public String getNome() {
@@ -18,6 +22,10 @@ public class Aluno {
 
 	public Double getNota() {
 		return nota;
+	}
+
+	public Boolean getBomComportamento() {
+		return bomComportamento;
 	}
 
 }
