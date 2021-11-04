@@ -28,4 +28,11 @@ public class Aluno {
 		return bomComportamento;
 	}
 
+	@Override
+	public String toString() {
+		return "O aluno " + nome + " tem nota " + nota;
+	}
+	
+	
+
 }
