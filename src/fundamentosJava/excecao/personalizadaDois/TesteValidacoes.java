@@ -1,4 +1,4 @@
-package fundamentosJava.excecao.personalizada;
+package fundamentosJava.excecao.personalizadaDois;
 
 import fundamentosJava.excecao.Aluno;
 
@@ -6,7 +6,6 @@ public class TesteValidacoes {
 
 	public static void main(String[] args) {
 		
-		//Exceções Não checadas
 		Aluno a1;
 		try {
 			a1 = new Aluno("Leco", 7.);
